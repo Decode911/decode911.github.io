@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: url(https://img.freepik.com/free-photo/beautiful-shot-high-white-hilltops-mountains-covered-fog_181624-399.jpg?w=360) no-repeat center center fixed;
+  background-size: cover;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 10px;
+}
+
+.navbar li {
+  margin: 0 10px;
+}
+
+.navbar li a {
+  color: white;
+  text-decoration: none;
+}
+
+.container {
+  text-align: center;
+  margin-top: 100px;
+  color: white;
+}
+
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
