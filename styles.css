@@ -23,7 +23,7 @@ header {
 }
 
 .navbar li {
-  margin: 0 10px;
+  margin: 0 20px;
 }
 
 .navbar li a {
@@ -32,9 +32,33 @@ header {
 }
 
 .container {
-  text-align: center;
+  text-align: left;
   margin-top: 100px;
-  color: white;
+  margin-bottom: 50px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container h1 {
+  color: #333;
+}
+
+.container h2,
+.container h3 {
+  color: #666;
+}
+
+.container ul {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.container li {
+  margin-bottom: 5px;
 }
 
 footer {
@@ -45,5 +69,5 @@ footer {
   bottom: 0;
   left: 0;
   width: 100%;
-  padding: 10px; /* Adjust the padding to make the bottom bar smaller */
+  padding: 10px;
 }
