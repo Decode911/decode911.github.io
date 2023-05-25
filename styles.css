@@ -1,74 +1,73 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CV</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <header>
-    <nav>
-      <ul class="navbar">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="cv.html">CV</a></li>
-        <li><a href="projects.html">Projects</a></li>
-      </ul>
-    </nav>
-  </header>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: url(https://img.freepik.com/free-photo/beautiful-shot-high-white-hilltops-mountains-covered-fog_181624-399.jpg?w=360) no-repeat center center fixed;
+  background-size: cover;
+}
 
-  <div class="container">
-    <h1>Software QA Tester and Bug Reporting</h1>
-    <h2>Currently studying manual software testing with plans to pursue automation testing.</h2>
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  border-radius: 0;
+}
 
-    <h3>Education and Professional Courses:</h3>
-    <p>2023: QA and Automation Course (Animation College - Gal-Mitlon)</p>
-    <ul>
-      <li>Experience in writing testing documents such as STP, STD, and STR.</li>
-      <li>Experience in testing Web (Windows), Mobile (Android), and various browsers.</li>
-      <li>Experience in bug reporting using Jira. Reported numerous bugs during course projects.</li>
-      <li>Understanding of project management methodologies (Agile, Waterfall), with emphasis on Agile.</li>
-      <li>In-depth understanding and hands-on experience in various testing types (End to End, Regression, Functional, Non-Functional, Exploratory, etc.).</li>
-      <li>Working with SQL.</li>
-      <li>Website development using HTML and CSS.</li>
-    </ul>
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 10px;
+  margin: 0 1mm;
+}
 
-    <p>2019: Graphic Design Course (HackerU)</p>
-    <ul>
-      <li>Knowledge of graphic design for software - appearance of the website, fonts, logos, etc.</li>
-      <li>Knowledge of user experience - button size, menus, navigation, etc.</li>
-      <li>Understanding how design and layout affect the functionality of the software and its ability to meet user expectations.</li>
-    </ul>
+.navbar li {
+  margin: 0 5px;
+}
 
-    <h3>2013 - Completed high school with a full matriculation certificate, including 5 units in English and accounting management.</h3>
+.navbar li a {
+  color: white;
+  text-decoration: none;
+}
 
-    <h3>Professional Experience:</h3>
-    <p>2021 - Present: Jifa Clothing and Footwear</p>
-    <ul>
-      <li>Currently employed at Jifa as a branch manager. Responsibilities include: customer service and sales, managing employees, teamwork, working under pressure and high workload, and inventory management.</li>
-    </ul>
+.container {
+  text-align: left;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-    <p>2015 - 2021: Salesperson and Shift Supervisor at a Store</p>
-    <ul>
-      <li>My first job after military service was at Fox, where after a few months, I advanced to the role of shift supervisor.</li>
-      <li>After leaving Fox, I worked at a pet store, as I have a great love for animals (I have 3 lovely cats).</li>
-      <li>The job duties included front-end customer service and sales, phone sales, understanding their pets' needs and recommending products, managing employees, working in a large team, and working independently during shifts under pressure and high workload.</li>
-    </ul>
+.container h1 {
+  color: #333;
+}
 
-    <h3>Military Service:</h3>
-    <p>Full-service between 2013-2015 and discharged with the rank of Sergeant.</p>
-    <p>Served as a salary accountant for various IDF units.</p>
+.container h2,
+.container h3 {
+  color: #666;
+}
 
-    <h3>Proficient in languages:</h3>
-    <ul>
-      <li>Hebrew</li>
-      <li>English</li>
-      <li>Russian</li>
-    </ul>
-  </div>
+.container ul {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 
-  <footer>
-    <p>&copy; 2023 Your Name</p>
-  </footer>
-</body>
-</html>
+.container li {
+  margin-bottom: 5px;
+}
+
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+}
