@@ -9,8 +9,13 @@ body {
 }
 
 header {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.8);
   padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
 }
 
 .navbar {
@@ -31,13 +36,13 @@ header {
 }
 
 .container {
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.9);
   padding: 20px;
   margin: 20px;
   border-radius: 10px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
   max-width: 800px;
-  margin: 20px auto;
+  margin: 60px auto;
 }
 
 .container h1,
@@ -53,7 +58,7 @@ header {
 }
 
 footer {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.8);
   padding: 10px;
   position: fixed;
   bottom: 0;
