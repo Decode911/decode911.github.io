@@ -8,11 +8,10 @@ body {
 header {
   position: fixed;
   top: 0;
-  left: 1mm;
-  right: 1mm;
-  width: calc(100% - 2mm);
-  background-color: rgba(0, 0, 0, 0.2);
-  border-radius: 10px;
+  left: 0;
+  right: 0;
+  background-color: black;
+  border-radius: 0;
 }
 
 .navbar {
