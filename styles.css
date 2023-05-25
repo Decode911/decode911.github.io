@@ -17,13 +17,13 @@ header {
 
 .navbar {
   display: flex;
-  justify-content: space-around;
+  justify-content: center; /* Update to center the page names */
   list-style: none;
   padding: 10px;
 }
 
 .navbar li {
-  margin: 0 15px;
+  margin: 0 10px; /* Adjust the margin to reduce space between page names */
 }
 
 .navbar li a {
