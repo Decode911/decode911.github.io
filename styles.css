@@ -17,13 +17,13 @@ header {
 
 .navbar {
   display: flex;
-  justify-content: center; /* Update to center the page names */
+  justify-content: center;
   list-style: none;
   padding: 10px;
 }
 
 .navbar li {
-  margin: 0 10px; /* Adjust the margin to reduce space between page names */
+  margin: 0 10px;
 }
 
 .navbar li a {
@@ -45,5 +45,5 @@ footer {
   bottom: 0;
   left: 0;
   width: 100%;
-  padding: 20px;
+  padding: 10px; /* Adjust the padding to make the bottom bar smaller */
 }
